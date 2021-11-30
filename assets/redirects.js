@@ -1,0 +1,1 @@
+"use strict";$(".redirect-edit-toggle").click(function(){var e=$(this),t=$(e.data("target"));$(".redirect_edit_engaged").removeClass("redirect_edit_engaged"),e.hasClass("show")?(t.find(".listCheckbox").attr("disabled",!0),t.addClass("redirect_edit_engaged")):t.find(".listCheckbox").attr("disabled",!1)});
